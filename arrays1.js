@@ -11,7 +11,7 @@ const firstThreeItems = [groceries.slice(0, 3)];
 console.log(firstThreeItems);
 
 //bonus challange, had to look it up.
-// groceries.splice(2, 1);
-// groceries.unshift("fruits");
-// groceries.splice(0, 2, "ketchup", "chili");
-// console.log(groceries);
+groceries.splice(2, 1);
+groceries.unshift("fruits");
+groceries.splice(0, 2, "ketchup", "chili");
+console.log(groceries);
